@@ -6,20 +6,41 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 6 |
+| 9 | 14 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [binary search](#binary-search) (1)
+- [brute force](#brute-force) (2)
 - [combinatorics](#combinatorics) (1)
+- [constructive algorithms](#constructive-algorithms) (1)
 - [dp](#dp) (1)
+- [games](#games) (1)
 - [graphs](#graphs) (1)
-- [math](#math) (1)
+- [greedy](#greedy) (2)
+- [implementation](#implementation) (5)
+- [math](#math) (4)
 - [number theory](#number-theory) (1)
+- [sortings](#sortings) (1)
+- [strings](#strings) (1)
 - [trees](#trees) (1)
 
 ---
+
+### binary search
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2028B | [Alice's Adventures in Permuting](https://codeforces.com/contest/2028/problem/B) | 1400 | [C++20 (GCC 13-64)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2028/B%20-%20Alice's%20Adventures%20in%20Permuting/solution.cpp) |
+
+### brute force
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2028A | [Alice's Adventures in ''Chess''](https://codeforces.com/contest/2028/problem/A) | 900 | [C++20 (GCC 13-64)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2028/A%20-%20Alice's%20Adventures%20in%20''Chess''/solution.cpp) |
+| 2037B | [Intercepted Inputs](https://codeforces.com/contest/2037/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2037/B%20-%20Intercepted%20Inputs/solution.cpp) |
 
 ### combinatorics
 
@@ -27,11 +48,23 @@
 |---|---------|------------|----------|
 | 2241E | [Fair and Square](https://codeforces.com/contest/2241/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2241/E%20-%20Fair%20and%20Square/solution.cpp) |
 
+### constructive algorithms
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2029B | [Replacement](https://codeforces.com/contest/2029/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2029/B%20-%20Replacement/solution.cpp) |
+
 ### dp
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2241E | [Fair and Square](https://codeforces.com/contest/2241/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2241/E%20-%20Fair%20and%20Square/solution.cpp) |
+
+### games
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2029B | [Replacement](https://codeforces.com/contest/2029/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2029/B%20-%20Replacement/solution.cpp) |
 
 ### graphs
 
@@ -39,10 +72,30 @@
 |---|---------|------------|----------|
 | 2241E | [Fair and Square](https://codeforces.com/contest/2241/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2241/E%20-%20Fair%20and%20Square/solution.cpp) |
 
+### greedy
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2029A | [Set](https://codeforces.com/contest/2029/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2029/A%20-%20Set/solution.cpp) |
+| 2036B | [Startup](https://codeforces.com/contest/2036/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2036/B%20-%20Startup/solution.cpp) |
+
+### implementation
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2028A | [Alice's Adventures in ''Chess''](https://codeforces.com/contest/2028/problem/A) | 900 | [C++20 (GCC 13-64)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2028/A%20-%20Alice's%20Adventures%20in%20''Chess''/solution.cpp) |
+| 2028B | [Alice's Adventures in Permuting](https://codeforces.com/contest/2028/problem/B) | 1400 | [C++20 (GCC 13-64)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2028/B%20-%20Alice's%20Adventures%20in%20Permuting/solution.cpp) |
+| 2036A | [Quintomania](https://codeforces.com/contest/2036/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2036/A%20-%20Quintomania/solution.cpp) |
+| 2037A | [Twice](https://codeforces.com/contest/2037/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2037/A%20-%20Twice/solution.cpp) |
+| 2037B | [Intercepted Inputs](https://codeforces.com/contest/2037/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2037/B%20-%20Intercepted%20Inputs/solution.cpp) |
+
 ### math
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 2028A | [Alice's Adventures in ''Chess''](https://codeforces.com/contest/2028/problem/A) | 900 | [C++20 (GCC 13-64)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2028/A%20-%20Alice's%20Adventures%20in%20''Chess''/solution.cpp) |
+| 2028B | [Alice's Adventures in Permuting](https://codeforces.com/contest/2028/problem/B) | 1400 | [C++20 (GCC 13-64)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2028/B%20-%20Alice's%20Adventures%20in%20Permuting/solution.cpp) |
+| 2029A | [Set](https://codeforces.com/contest/2029/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2029/A%20-%20Set/solution.cpp) |
 | 2241E | [Fair and Square](https://codeforces.com/contest/2241/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2241/E%20-%20Fair%20and%20Square/solution.cpp) |
 
 ### number theory
@@ -50,6 +103,18 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2241E | [Fair and Square](https://codeforces.com/contest/2241/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2241/E%20-%20Fair%20and%20Square/solution.cpp) |
+
+### sortings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2036B | [Startup](https://codeforces.com/contest/2036/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2036/B%20-%20Startup/solution.cpp) |
+
+### strings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2029B | [Replacement](https://codeforces.com/contest/2029/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2029/B%20-%20Replacement/solution.cpp) |
 
 ### trees
 
