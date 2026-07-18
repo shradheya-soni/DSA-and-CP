@@ -6,12 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 9 | 14 |
+| 10 | 15 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [Uncategorized](#uncategorized) (1)
 - [binary search](#binary-search) (1)
 - [brute force](#brute-force) (2)
 - [combinatorics](#combinatorics) (1)
@@ -28,6 +29,12 @@
 - [trees](#trees) (1)
 
 ---
+
+### Uncategorized
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2247A | [Zero Sum](https://codeforces.com/contest/2247/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/shradheya-soni/DSA-and-CP/blob/HEAD/2247/A%20-%20Zero%20Sum/solution.cpp) |
 
 ### binary search
 
