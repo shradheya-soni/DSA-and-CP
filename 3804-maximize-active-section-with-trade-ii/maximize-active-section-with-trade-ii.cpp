@@ -1,8 +1,3 @@
-#include <vector>
-#include <string>
-#include <algorithm>
-
-using namespace std;
 
 struct node {
     int val;
@@ -76,8 +71,7 @@ public:
         int m = start.size();
         vector<int> ans;
 
-        // If there are fewer than 2 blocks of zeros in the whole string,
-        // we can never merge two blocks. Just return the total '1's.
+
         if (m < 2) {
             for(int k = 0; k < queries.size(); k++) {
                 ans.push_back(total_ones);
@@ -85,8 +79,8 @@ public:
             return ans;
         }
 
-        // 3. Build Segment Tree for the sum of lengths of adjacent '0' blocks
-        int N = m - 1; // Number of adjacent pairs
+   
+        int N = m - 1;
         arr.assign(N, 0);
         for (int k = 0; k < N; k++) {
             arr[k] = len[k] + len[k+1];
@@ -95,32 +89,29 @@ public:
         seg.assign(4 * N, node());
         build_tree(0, N - 1, arr, 0);
 
-        // 4. Process each query
         for(auto& q : queries) {
             int l = q[0];
             int r = q[1];
             
             int maxPairSum = 0;
 
-            // Find the blocks that intersect with the query range [l, r]
+      
             int low = lower_bound(finish.begin(), finish.end(), l) - finish.begin();
             int high = upper_bound(start.begin(), start.end(), r) - start.begin() - 1;
 
             if (low <= high) {
-                // Calculate lengths of the boundary blocks, restricted to [l, r]
+              
                 int firstLen = min(finish[low], r) - max(start[low], l) + 1;
                 int lastLen = min(finish[high], r) - max(start[high], l) + 1;
 
                 if (low == high) {
-                    // Only one block of '0's intersects the query. No pairs to merge.
+                   
                     maxPairSum = 0; 
                 } 
                 else if (high - low == 1) {
-                    // Exactly two blocks intersect the query. They are adjacent.
                     maxPairSum = firstLen + lastLen;
                 } 
                 else {
-                    // More than two blocks intersect. 
                     int pair1 = firstLen + len[low + 1];
                     int pair2 = len[high - 1] + lastLen;
                     
@@ -133,7 +124,6 @@ public:
                 }
             }
             
-            // Add the gain from the trade to the TOTAL '1's in the string
             ans.push_back(total_ones + maxPairSum);
         }
 
